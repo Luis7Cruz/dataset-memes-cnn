@@ -1,0 +1,19 @@
+# Archivos comprimidos y paquetes grandes (>100MB superan el limite de GitHub)
+*.zip
+paquete_memes_cnn/
+
+# Pesos de modelos y checkpoints
+*.keras
+*.h5
+checkpoints/
+
+# Archivos de ejecucion local y temporales
+__pycache__/
+*.pyc
+logs/
+.ipynb_checkpoints/
+scratch/
+
+# Otros notebooks no relacionados
+CNN_Partituras*
+
